@@ -9,9 +9,9 @@ title:               "EFT-TBT Groups"
 email:               eft.tbt@gmail.com
 tagline:             "Isabelle Levrat"
 description:         "Isabelle Levrat<br />EFT–TBT Groups"
-url:                 "http://eft-tbt.com"
-# url:                 "http://efttbthub.github.io"
-# baseurl:             "/eft-tbt-v1"
+# url:                 "http://eft-tbt.com"
+url:                 "http://efttbthub.github.io"
+baseurl:             "/eft-tbt-v1-test"
 
 
 exclude: ["CNAME", "README.md", "LICENSE.md"]
