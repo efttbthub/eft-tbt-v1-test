@@ -1,0 +1,102 @@
+---
+layout: default
+---
+
+<p>previous_page_path {{ %previous_page_path% }}</p>
+<p>page.path {{ %page.path% }}</p>
+<p>paginator.per_page {{ %paginator.per_page% }}</p>
+<p>paginator.posts {{ %paginator.posts% }}</p>
+<p>paginator.total_posts {{ %paginator.total_posts% }}</p>
+<p>paginator.total_pages {{ %paginator.total_pages% }}</p>
+
+
+<p>paginator.page {{ %paginator.page% }}
+<p>paginator.previous_page {{ %paginator.previous_page% }}
+<p>paginator.previous_page_path {{ %paginator.previous_page_path% }}
+<p>paginator.next_page {{ %paginator.next_page% }}
+<p>paginator.next_page_path {{ %paginator.next_page_path% }}
+
+
+
+
+
+<nav id="pagination">
+    {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+        <a href="/" title="Previous Page">&laquo; Previous</a>
+        {% else %}
+        <a href="/page{{paginator.previous_page }}/" title="Previous Page">&laquo; Previous</a>
+        {% endif %}
+    {% endif %}
+        <span>Page: {{ paginator.page }} of {{paginator.total_pages }}</span>
+        {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}/" title="Next Page">Next &raquo;</a>
+    {% endif %}
+  </nav>
+
+
+
+	{% assign pages_list = site.pages | sort:"url" %}
+	{% for my_page in pages_list %}
+		{% if my_page.title != null %}
+			{% if my_page.layout == "page" %}
+				<a class="sidebar-nav-item{% if page.url == my_page.url %} active{% endif %}" href="{{ my_page.url }}">{{ my_page.title }}</a>
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+
+	{% assign counter = 0 %}
+	{% assign pages_list = site.pages | sort:"url" %}
+	{% for my_page in pages_list %}
+		{% if my_page.title != null %}
+			{% if my_page.layout == "page" %}
+				{% increment counter %}
+				{% if my_page.title == page.title %}
+					<p>!!!!!!!!!!!!!!!!!!!!!!!!{{ page.title }}</p>
+					<p>counter = {{ counter }}</p>
+				{% endif %}
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+
+
+{% assign var = 10 %}
+{% increment var %}
+{% increment var %}
+{% increment var %}
+{{ var }}
+
+{% assign variable2 = 10 %}
+{% decrement variable2 %}
+{% decrement variable2 %}
+{% decrement variable2 %}
+
+
+{{ page.title }}
+
+<div>pages_list[1].title  = {{ pages_list[1].title }}</div>
+<div>pages_list[2].title  = {{ pages_list[2].title }}</div>
+<div>pages_list[3].title  = {{ pages_list[3].title }}</div>
+<div>pages_list[4].title  = {{ pages_list[4].title }}</div>
+<div>pages_list[5].title  = {{ pages_list[5].title }}</div>
+<div>pages_list[6].title  = {{ pages_list[6].title }}</div>
+<div>pages_list[7].title  = {{ pages_list[7].title }}</div>
+<div>pages_list[8].title  = {{ pages_list[8].title }}</div>
+<div>pages_list[9].title  = {{ pages_list[9].title }}</div>
+<div>pages_list[10].title = {{ pages_list[10].title }}</div>
+<div>pages_list[11].title = {{ pages_list[11].title }}</div>
+<div>pages_list[12].title = {{ pages_list[12].title }}</div>
+
+{% assign counter = 1 %}
+<div class="">counter = {{ counter }}</div>
+<div>pages_list[counter].title = {{ pages_list[counter].title }}</div>
+
+{% assign counter = 2 %}
+
+
+<p>----------------------------------------------------------</p>
+<div class="page">
+<!--   <h1 class="page-title">{{ page.title }}</h1> -->
+  {{ content }}
+</div>
+
