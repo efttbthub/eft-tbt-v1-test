@@ -1,38 +1,272 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+		<!-- Basic Page Needs
+		================================================== -->
+		<meta charset="utf-8">
+		<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>EFT–TBT — Isabelle Levrat</title>
+		<meta name="description" content="EFT–TBT">
+		<meta name="keywords" content="EFT, TBT">
+		<meta name="author" content="Isabelle Levrat, Nicolas Jeanmonod">
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+		<!-- Favicons
+		================================================== -->
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+		<!-- Slider
+		================================================== -->
+		<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+		<link href="css/owl.theme.css" rel="stylesheet" media="screen">
 
+		<!-- Stylesheet
+		================================================== -->
+		<link rel="stylesheet" type="text/css"  href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+
+		<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- Navigation
+		==========================================-->
+		<nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/">EFT–TBT</a></div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a class="page-scroll" href="#tf-presentation" >Présentation</a></li>
+						<li><a class="page-scroll" href="#tf-techniques"   >Techniques</a></li>
+						<li><a class="page-scroll" href="#tf-applications" >Applications</a></li>
+						<li><a class="page-scroll" href="#tf-ateliers"     >Ateliers</a></li>
+						<li><a class="page-scroll" href="#tf-contact"      >Contact</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+
+		<!--
+		==========================================-->
+		<div id="tf-accueil" class="text-center">
+			<div class="container-fluid overlay">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 content">
+						<h1>EFT – TBT</h1>
+						<p>Gérez le stress <strong>facilement</strong></p>
+						<p>Isabelle Levrat</p>
+						<blockquote><p>La <strong>TBT</strong> ou “Trauma Buster Technique”, peut réduire radicalement et même totalement les symptômes de stress posttraumatiques. C’est une combinaison de l’<strong>EFT</strong> et de la <strong>PNL</strong>. Elle peut être pratiquée de trois façons : en groupe, en consultation avec un praticien TBT, ou seul.</p></blockquote>
+						<a href="#tf-presentation" class="fa fa-angle-down page-scroll"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--
+		==========================================-->
+		<div id="tf-presentation">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/isabelle-levrat-fb.jpg" class="img-responsive">
+					</div>
+					<div class="col-md-6">
+						<div class="section-title">
+							<h4>Isabelle Levrat</h4>
+							<h2>Praticienne diplômée <strong>EFT–TBT</strong>, hypnose, PNL, et réflexologie</h2>
+							<hr>
+							<div class="clearfix"></div>
+							<p><a href="mailto:eft-tbt@gmail.com">eft-tbt@gmail.com</a></p>
+							<p><em>Bienvenue sur mon site. Advenit post multos Scudilo Scutariorum tribunus velamento subagrestis ingenii persuasionis opifex callidus. qui eum adulabili sermone seriis admixto solus omnium proficisci pellexit vultu adsimulato saepius replicando quod flagrantibus votis eum videre frater cuperet patruelis, siquid per inprudentiam gestum est remissurus ut mitis et clemens, participemque eum suae maiestatis adscisceret, futurum laborum quoque socium, quos Arctoae provinciae diu fessae poscebant.</em></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--
+		==========================================-->
+		<div id="tf-techniques" class="text-center">
+			<div class="overlay">
+				<div class="container">
+					<div class="section-title center">
+						<h2>Les <strong>techniques</strong></h2>
+						<div class="line">
+							<hr />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="item">
+								<img src="img/fotolia_69565673.jpg" alt="..." class="img-circle">
+								<h3>EFT</h3>
+								<p>Emotional<br/>Freedom<br/>Technique</p>
+								<p><a href="http://eft-tbt.com/qu-est-ce-que-l-eft/">Qu’est-ce que l’EFT ?</a></p>
+                                <p><a href="#">Que pensent-ils de l’EFT ?</a></p>
+								<p><a href="#">Vidéos de Bruce Lipton</a></p>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="item">
+								<img src="img/feu-300x300.jpg" alt="..." class="img-circle">
+								<h3>TBT</h3>
+                                <p>Trauma<br/>Buster<br/>Technique</p>
+								<p><a href="http://eft-tbt.com/qu-est-ce-que-le-tbt/">Qu’est-ce que le TBT ?</a></p>
+								<p><a href="http://eft-tbt.com/la-puissance-du-groupe/">Les Groupes</a></p>
+								<p><a href="#">SSPT<br/>Symptôme de Stress Post Traumatique</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<!--
+		==========================================-->
+		<div id="tf-applications" class="text-center">
+			<div class="overlay">
+				<div class="container">
+					<div class="section-title center">
+						<h2>Les <strong>applications</strong></h2>
+						<div class="line">
+							<hr />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="item">
+								<img src="img/sport-300x300.jpg" alt="..." class="img-circle">
+								<h3><a href="http://eft-tbt.com/eft-et-sport/">EFT et sport</a></h3>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="item">
+								<img src="img/renovation.jpg" alt="..." class="img-responsive">
+								<h3><a href="http://eft-tbt.com/eft-groups-dans-l-entreprise/">EFT en entreprise</a></h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!--
+		==========================================-->
+		<div id="tf-ateliers" class="text-center">
+			<div class="overlay">
+				<div class="container">
+					<div class="section-title center">
+						<h2>Les <strong>ateliers</strong></h2>
+						<div class="line">
+							<hr />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="item">
+								<img src="img/point-interrogation.png" alt="..." class="img-responsive">
+                                <h3><a href="#">Comment se déroule la séance de groupe ?</a></h3>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="item">
+								<img src="img/point-interrogation.png" alt="..." class="img-responsive">
+								<h3><a href="#">Prochaines dates ateliers de groupe</a></h3>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="item">
+								<img src="img/point-interrogation.png" alt="..." class="img-responsive">
+								<h3><a href="#">Consultation individuelle avec Isabelle</a></h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!--
+		==========================================-->
+		<div id="tf-contact" class="text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="section-title center">
+                            <h2>Pour prendre <strong>contact</strong></h2>
+                            <div class="line">
+                                    <hr>
+                            </div>
+                            <div class="clearfix"></div>
+                            <p>Isabelle Levrat</p>
+                            <p><i class="fa fa-mobile"></i> +33 123456789</p>
+                            <p><a href="mailto:eft.tbt@gmail.com">eft.tbt@gmail.com</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<nav id="footer">
+			<div class="container">
+				<div class="pull-left fnav">
+					<p>© 2016, <a href="mailto:eft.tbt@gmail.com">Isabelle Levrat</a> | Webmaster <a href="mailto:nicolas.jeanmonod@bluewin.ch">Nicolas Jeanmonod</a></p>
+				</div>
+				<div class="pull-right fnav">
+					<ul class="footer-social">
+						<li><a href="https://www.facebook.com/EFT-TBT-groups-1520668418256046/"><i class="fa fa-facebook"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/SmoothScroll.js"></script>
+		<script type="text/javascript" src="js/jquery.isotope.js"></script>
+
+		<script src="js/owl.carousel.js"></script>
+
+		<!-- Javascripts
+		================================================== -->
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+</html>
