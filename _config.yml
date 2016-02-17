@@ -1,0 +1,30 @@
+
+title: "EFT–TBT"
+description: EFT–TBT
+locale: fr
+
+url: "http://efttbthub.github.io"
+baseurl: "/eft-tbt-v1-test"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: true
+
+exclude: [ "CNAME", "README.md", "Gemfile", "Gemfile.lock" ]
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+sass:
+  sass_dir: assets/css
+  # style: compressed
+
+gems:
+  - jekyll-sitemap
+
