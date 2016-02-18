@@ -13,7 +13,7 @@ published: true
 
 # Ateliers EFT-TBT Groups
 
-## Comment se déroule la séance de groupe?
+## Comment se déroule la séance de groupe ?
 
 ### 9 h
 
