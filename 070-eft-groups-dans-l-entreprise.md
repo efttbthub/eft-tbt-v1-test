@@ -15,5 +15,5 @@ published: true
 Page en cours de rénovation....
 
 
-![](/images/renovation.jpg)
+![](../images/renovation.jpg)
 
