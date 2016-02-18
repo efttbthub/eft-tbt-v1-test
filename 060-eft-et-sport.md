@@ -24,11 +24,11 @@ Seth Joyner, ancien défenseur de football américain chez les Arizona Cardinals
 
 ## EFT et baseball
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/ksuragZVFqg" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="585" height="529" src="https://www.youtube.com/embed/ksuragZVFqg" frameborder="0" allowfullscreen></iframe></p>
 
 ## EFT et golf (en séance individuelle ou en groupe)
 
-<p><iframe width="420" height="315" src="https://www.youtube.com/embed/IHopu8JdpNE" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="585" height="439" src="https://www.youtube.com/embed/IHopu8JdpNE" frameborder="0" allowfullscreen></iframe></p>
 
-<p><iframe width="420" height="315" src="https://www.youtube.com/embed/1yX_A_MpMbk" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="585" height="439" src="https://www.youtube.com/embed/1yX_A_MpMbk" frameborder="0" allowfullscreen></iframe></p>
 
