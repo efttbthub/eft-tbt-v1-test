@@ -8,10 +8,16 @@ published: true
 
 ## Praticienne diplômée **EFT–TBT**, hypnose, PNL, et réflexologie
 
-<hr />
-<div class="clearfix"></div>
+<hr /><div class="clearfix"></div>
 
-[eft.tbt@gmail.com](mailto:eft.tbt@gmail.com)
+*Bonjour à vous et bienvenue sur mon site.*
 
-*Bienvenue sur mon site.*
-*Advenit post multos Scudilo Scutariorum tribunus velamento subagrestis ingenii persuasionis opifex callidus. qui eum adulabili sermone seriis admixto solus omnium proficisci pellexit vultu adsimulato saepius replicando quod flagrantibus votis eum videre frater cuperet patruelis, siquid per inprudentiam gestum est remissurus ut mitis et clemens, participemque eum suae maiestatis adscisceret, futurum laborum quoque socium, quos Arctoae provinciae diu fessae poscebant.*
+Je m’appelle Isabelle Levrat et je suis *réflexologue* formée à l’*intelligence relationnelle*, aux outils de la *PNL*, à l’*hypnose éricksonienne* et certifiée *formatrice, praticienne EFT–TBT*.
+
+Vous pouvez découvrir mon parcours plus en détail sur [ma page de présentation](intervenante).
+
+Pour prendre contact avec moi, il suffit de m’envoyer un message à l’adresse suivante : [eft.tbt@gmail.com](mailto:eft.tbt@gmail.com).
+
+Je vous souhaite une agréable découverte de l’EFT–TBT sur mon site.
+
+*Isabelle*

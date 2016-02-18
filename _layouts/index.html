@@ -1,53 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-	<head>
-
-		<!-- Basic Page Needs
-		================================================== -->
-		<meta charset="utf-8" />
-		<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>EFT–TBT — Isabelle Levrat</title>
-		<meta name="description" content="EFT–TBT" />
-		<meta name="keywords" content="EFT, TBT" />
-		<meta name="author" content="Isabelle Levrat, Nicolas Jeanmonod" />
-
-		<!-- Favicons
-		================================================== -->
-		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
-		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
-		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
-
-		<!-- Bootstrap -->
-		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
-		<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/css/font-awesome.css" />
-
-		<!-- Slider
-		================================================== -->
-		<link rel="stylesheet" media="screen" href="assets/css/owl.carousel.css" />
-		<link rel="stylesheet" media="screen" href="assets/css/owl.theme.css" />
-
-		<!-- Stylesheet
-		================================================== -->
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
-
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css' />
-
-		<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-	</head>
-	<body>
-{% include analyticstracking.html %}
-
+---
+layout: default
+---
 
 		<!--
 		==========================================-->
@@ -128,26 +81,38 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-6">
+
+{% assign NbCatTechniques = 0 %}
+{% for thispage in site.pages %}
+	{% if thispage.category == "techniques" %}
+		{% assign NbCatTechniques = NbCatTechniques | plus: 1 %}
+	{% endif %}
+{% endfor %}
+
+{% if NbCatTechniques ==  1 %}{% assign NbColSM = 12 %}{% endif %}
+{% if NbCatTechniques ==  2 %}{% assign NbColSM = 6  %}{% endif %}
+{% if NbCatTechniques ==  3 %}{% assign NbColSM = 4  %}{% endif %}
+{% if NbCatTechniques ==  4 %}{% assign NbColSM = 3  %}{% endif %}
+{% if NbCatTechniques ==  5 %}{% assign NbColSM = 4  %}{% endif %}
+{% if NbCatTechniques ==  6 %}{% assign NbColSM = 4  %}{% endif %}
+{% if NbCatTechniques ==  7 %}{% assign NbColSM = 4  %}{% endif %}
+{% if NbCatTechniques ==  8 %}{% assign NbColSM = 3  %}{% endif %}
+{% if NbCatTechniques ==  9 %}{% assign NbColSM = 4  %}{% endif %}
+{% if NbCatTechniques >= 10 %}{% assign NbColSM = 3  %}{% endif %}
+
+{% for thispage in site.pages %}
+	{% if thispage.category == "techniques" %}
+	<a href="{{ site.baseurl }}{{ thispage.url }}">
+						<div class="col-sm-{{ NbColSM }}">
 							<div class="item">
-								<img src="images/fotolia_69565673.jpg" alt="..." class="img-circle" />
-								<h3>EFT</h3>
-								<p>Emotional<br/>Freedom<br/>Technique</p>
-								<p><a href="http://eft-tbt.com/qu-est-ce-que-l-eft/">Qu’est-ce que l’EFT ?</a></p>
-								<p><a href="#">Que pensent-ils de l’EFT ?</a></p>
-								<p><a href="#">Vidéos de Bruce Lipton</a></p>
+								<img src="{{ thispage.vignette.image }}" alt="..." class="img-circle" />
+								<h3>{{ thispage.vignette.titre-1 }}</h3>
+								<p>{{ thispage.vignette.titre-2 }}</p>
 							</div>
 						</div>
-						<div class="col-sm-6">
-							<div class="item">
-								<img src="images/feu-300x300.jpg" alt="..." class="img-circle" />
-								<h3>TBT</h3>
-								<p>Trauma<br/>Buster<br/>Technique</p>
-								<p><a href="http://eft-tbt.com/qu-est-ce-que-le-tbt/">Qu’est-ce que le TBT ?</a></p>
-								<p><a href="http://eft-tbt.com/la-puissance-du-groupe/">Les Groupes</a></p>
-								<p><a href="#">SSPT<br/>Symptôme de Stress Post Traumatique</a></p>
-							</div>
-						</div>
+	</a>
+	{% endif %}
+{% endfor %}
 					</div>
 				</div>
 			</div>
@@ -243,39 +208,3 @@
 				</div>
 			</div>
 		</div>
-
-
-
-		<!--
-		==========================================-->
-		<nav id="footer">
-			<div class="container">
-				<div class="pull-left fnav">
-					<p>© 2016, <a href="mailto:eft.tbt@gmail.com">Isabelle Levrat</a> | Webmaster <a href="mailto:nicolas.jeanmonod@bluewin.ch">Nicolas Jeanmonod</a></p>
-				</div>
-				<div class="pull-right fnav">
-					<ul class="footer-social">
-						<li><a href="https://www.facebook.com/EFT-TBT-groups-1520668418256046/"><i class="fa fa-facebook"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-
-
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script type="text/javascript" src="assets/js/jquery.1.11.1.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
-		<script type="text/javascript" src="assets/js/SmoothScroll.js"></script>
-		<script type="text/javascript" src="assets/js/jquery.isotope.js"></script>
-
-		<script type="text/javascript" src="assets/js/owl.carousel.js"></script>
-
-		<!-- Javascripts
-		================================================== -->
-		<script type="text/javascript" src="assets/js/main.js"></script>
-
-	</body>
-</html>

@@ -1,0 +1,5 @@
+# Site wide configuration
+
+url: http://54.194.109.204
+baseurl: "/eft-tbt"
+destination: "/var/www/html/eft-tbt/"
