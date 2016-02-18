@@ -4,7 +4,7 @@ title: Que se passe-t-il en séance?
 permalink: seance-de-groupe/
 category: ateliers
 vignette:
-  image: images/point-interrogation.png
+  image: images/ponton-300x300.jpg
   titre-1: Comment se déroule la séance de groupe?
   titre-2:
 published: true
