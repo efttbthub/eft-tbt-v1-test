@@ -2,6 +2,7 @@
 layout: page
 title: Intervenante
 permalink: intervenante/
+published: true
 ---
 
 # Intervenante : Isabelle Levrat

@@ -81,36 +81,35 @@ layout: default
 						</div>
 					</div>
 					<div class="row">
-
-{% assign NbCatTechniques = 0 %}
+{% assign NbCat-techniques = 0 %}
 {% for thispage in site.pages %}
 	{% if thispage.category == "techniques" %}
-		{% assign NbCatTechniques = NbCatTechniques | plus: 1 %}
+		{% assign NbCat-techniques = NbCat-techniques | plus: 1 %}
 	{% endif %}
 {% endfor %}
 
-{% if NbCatTechniques ==  1 %}{% assign NbColSM = 12 %}{% endif %}
-{% if NbCatTechniques ==  2 %}{% assign NbColSM = 6  %}{% endif %}
-{% if NbCatTechniques ==  3 %}{% assign NbColSM = 4  %}{% endif %}
-{% if NbCatTechniques ==  4 %}{% assign NbColSM = 3  %}{% endif %}
-{% if NbCatTechniques ==  5 %}{% assign NbColSM = 4  %}{% endif %}
-{% if NbCatTechniques ==  6 %}{% assign NbColSM = 4  %}{% endif %}
-{% if NbCatTechniques ==  7 %}{% assign NbColSM = 4  %}{% endif %}
-{% if NbCatTechniques ==  8 %}{% assign NbColSM = 3  %}{% endif %}
-{% if NbCatTechniques ==  9 %}{% assign NbColSM = 4  %}{% endif %}
-{% if NbCatTechniques >= 10 %}{% assign NbColSM = 3  %}{% endif %}
+{% if NbCat-techniques ==  1 %}{% assign NbColSM-techniques = 12 %}{% endif %}
+{% if NbCat-techniques ==  2 %}{% assign NbColSM-techniques = 6  %}{% endif %}
+{% if NbCat-techniques ==  3 %}{% assign NbColSM-techniques = 4  %}{% endif %}
+{% if NbCat-techniques ==  4 %}{% assign NbColSM-techniques = 3  %}{% endif %}
+{% if NbCat-techniques ==  5 %}{% assign NbColSM-techniques = 4  %}{% endif %}
+{% if NbCat-techniques ==  6 %}{% assign NbColSM-techniques = 4  %}{% endif %}
+{% if NbCat-techniques ==  7 %}{% assign NbColSM-techniques = 4  %}{% endif %}
+{% if NbCat-techniques ==  8 %}{% assign NbColSM-techniques = 3  %}{% endif %}
+{% if NbCat-techniques ==  9 %}{% assign NbColSM-techniques = 4  %}{% endif %}
+{% if NbCat-techniques >= 10 %}{% assign NbColSM-techniques = 3  %}{% endif %}
 
 {% for thispage in site.pages %}
 	{% if thispage.category == "techniques" %}
-	<a href="{{ site.baseurl }}{{ thispage.url }}">
-						<div class="col-sm-{{ NbColSM }}">
-							<div class="item">
-								<img src="{{ thispage.vignette.image }}" alt="..." class="img-circle" />
-								<h3>{{ thispage.vignette.titre-1 }}</h3>
-								<p>{{ thispage.vignette.titre-2 }}</p>
+						<a href="{{ site.baseurl }}{{ thispage.url }}">
+							<div class="col-sm-{{ NbColSM-techniques }}">
+								<div class="item">
+									<img src="{{ thispage.vignette.image }}" alt="..." class="img-circle" />
+									<h3>{{ thispage.vignette.titre-1 }}</h3>
+									<p>{{ thispage.vignette.titre-2 }}</p>
+								</div>
 							</div>
-						</div>
-	</a>
+						</a>
 	{% endif %}
 {% endfor %}
 					</div>
@@ -132,18 +131,37 @@ layout: default
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-6">
-							<div class="item">
-								<img src="images/sport-300x300.jpg" alt="..." class="img-circle" />
-								<h3><a href="http://eft-tbt.com/eft-et-sport/">EFT et sport</a></h3>
+{% assign NbCat-applications = 0 %}
+{% for thispage in site.pages %}
+	{% if thispage.category == "applications" %}
+		{% assign NbCat-applications = NbCat-applications | plus: 1 %}
+	{% endif %}
+{% endfor %}
+
+{% if NbCat-applications ==  1 %}{% assign NbColSM-applications = 12 %}{% endif %}
+{% if NbCat-applications ==  2 %}{% assign NbColSM-applications = 6  %}{% endif %}
+{% if NbCat-applications ==  3 %}{% assign NbColSM-applications = 4  %}{% endif %}
+{% if NbCat-applications ==  4 %}{% assign NbColSM-applications = 3  %}{% endif %}
+{% if NbCat-applications ==  5 %}{% assign NbColSM-applications = 4  %}{% endif %}
+{% if NbCat-applications ==  6 %}{% assign NbColSM-applications = 4  %}{% endif %}
+{% if NbCat-applications ==  7 %}{% assign NbColSM-applications = 4  %}{% endif %}
+{% if NbCat-applications ==  8 %}{% assign NbColSM-applications = 3  %}{% endif %}
+{% if NbCat-applications ==  9 %}{% assign NbColSM-applications = 4  %}{% endif %}
+{% if NbCat-applications >= 10 %}{% assign NbColSM-applications = 3  %}{% endif %}
+
+{% for thispage in site.pages %}
+	{% if thispage.category == "applications" %}
+						<a href="{{ site.baseurl }}{{ thispage.url }}">
+							<div class="col-sm-{{ NbColSM-applications }}">
+								<div class="item">
+									<img src="{{ thispage.vignette.image }}" alt="..." class="img-circle" />
+									<h3>{{ thispage.vignette.titre-1 }}</h3>
+									<p>{{ thispage.vignette.titre-2 }}</p>
+								</div>
 							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="item">
-								<img src="images/renovation.jpg" alt="..." class="img-responsive" />
-								<h3><a href="http://eft-tbt.com/eft-groups-dans-l-entreprise/">EFT en entreprise</a></h3>
-							</div>
-						</div>
+						</a>
+	{% endif %}
+{% endfor %}
 					</div>
 				</div>
 			</div>
@@ -163,24 +181,37 @@ layout: default
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-4">
-							<div class="item">
-								<img src="images/point-interrogation.png" alt="..." class="img-responsive" />
-								<h3><a href="#">Comment se déroule la séance de groupe ?</a></h3>
+{% assign NbCat-ateliers = 0 %}
+{% for thispage in site.pages %}
+	{% if thispage.category == "ateliers" %}
+		{% assign NbCat-ateliers = NbCat-ateliers | plus: 1 %}
+	{% endif %}
+{% endfor %}
+
+{% if NbCat-ateliers ==  1 %}{% assign NbColSM-ateliers = 12 %}{% endif %}
+{% if NbCat-ateliers ==  2 %}{% assign NbColSM-ateliers = 6  %}{% endif %}
+{% if NbCat-ateliers ==  3 %}{% assign NbColSM-ateliers = 4  %}{% endif %}
+{% if NbCat-ateliers ==  4 %}{% assign NbColSM-ateliers = 3  %}{% endif %}
+{% if NbCat-ateliers ==  5 %}{% assign NbColSM-ateliers = 4  %}{% endif %}
+{% if NbCat-ateliers ==  6 %}{% assign NbColSM-ateliers = 4  %}{% endif %}
+{% if NbCat-ateliers ==  7 %}{% assign NbColSM-ateliers = 4  %}{% endif %}
+{% if NbCat-ateliers ==  8 %}{% assign NbColSM-ateliers = 3  %}{% endif %}
+{% if NbCat-ateliers ==  9 %}{% assign NbColSM-ateliers = 4  %}{% endif %}
+{% if NbCat-ateliers >= 10 %}{% assign NbColSM-ateliers = 3  %}{% endif %}
+
+{% for thispage in site.pages %}
+	{% if thispage.category == "ateliers" %}
+						<a href="{{ site.baseurl }}{{ thispage.url }}">
+							<div class="col-sm-{{ NbColSM-ateliers }}">
+								<div class="item">
+									<img src="{{ thispage.vignette.image }}" alt="..." class="img-responsive" />
+									<h3>{{ thispage.vignette.titre-1 }}</h3>
+									<p>{{ thispage.vignette.titre-2 }}</p>
+								</div>
 							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="item">
-								<img src="images/point-interrogation.png" alt="..." class="img-responsive" />
-								<h3><a href="#">Prochaines dates ateliers de groupe</a></h3>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="item">
-								<img src="images/point-interrogation.png" alt="..." class="img-responsive" />
-								<h3><a href="#">Consultation individuelle avec Isabelle</a></h3>
-							</div>
-						</div>
+						</a>
+	{% endif %}
+{% endfor %}
 					</div>
 				</div>
 			</div>

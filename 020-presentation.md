@@ -1,6 +1,6 @@
 ---
 title: présentation
-permalink: presentation
+permalink: presentation/
 published: true
 ---
 
