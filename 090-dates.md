@@ -13,3 +13,23 @@ published: true
 
 # Prochaines dates des ateliers de groupe
 
+## Payements
+
+Atelier de groupe
+
+prix : 200 CHF
+
+{% include bouton-paypal-001.html %}
+
+
+
+<!--
+
+PROCÉDURE DE CRÉATION DES BOUTONS PAYPAL
+https://developer.paypal.com/docs/integration/web/
+
+LIEN DIRECT
+https://www.paypal.com/us/cgi-bin/webscr?cmd=_button-designer
+
+-->
+
