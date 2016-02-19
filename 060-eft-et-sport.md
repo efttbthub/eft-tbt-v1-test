@@ -11,7 +11,7 @@ published: true
 ---
 
 
-# EFT et performances
+# EFT et sport
 
 L’EFT n’est pas réservée aux les gens malades et elle peut aussi aider les gens en bonne santé. Dans une étude sur des athlètes d’élite, un traitement EFT de quinze minutes les libérant de leurs anxiétés a fait des merveilles sur leurs performances sportives. Cet essai contrôlé randomisé a été organisé par le coach sportif d’EFT Greg Warburton et a eu lieu à l’Université de l’Etat de l’Oregon, avec Greg et moi (Dawson Church) évaluant les hommes et femmes des équipes de basketball.
 

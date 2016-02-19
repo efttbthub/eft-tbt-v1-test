@@ -1,19 +1,18 @@
 ---
 layout: page
-title: Que se passe-t-il en séance?
-permalink: seance-de-groupe/
+title: Comment se déroulent les ateliers de groupe ?
+permalink: ateliers-eft-tbt-groups/
 category: ateliers
 vignette:
   image: images/ponton-300x300.jpg
-  titre-1: Comment se déroule la séance de groupe?
+  titre-1: Comment se déroulent les ateliers de groupe ?
   titre-2:
 published: true
 ---
 
 
-# Ateliers EFT-TBT Groups
 
-## Comment se déroule la séance de groupe ?
+# Comment se déroulent les ateliers de groupe ?
 
 ### 9 h
 
