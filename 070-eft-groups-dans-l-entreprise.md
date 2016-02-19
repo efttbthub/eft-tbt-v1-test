@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "EFT groups dans l’entreprise"
-permalink: eft-groups-dans-l-entreprise
+permalink: eft-groups-dans-l-entreprise/
 category: applications
 vignette:
   image: images/renovation.jpg
@@ -14,7 +14,5 @@ published: true
 
 Page en cours de rénovation....
 
-
-![](/images/renovation.jpg)
-
 ![](../images/renovation.jpg)
+

@@ -1,0 +1,74 @@
+{% comment %}
+<!--
+Count the pages that have a `category`.
+and put their indexes in idArray.
+-->
+{% endcomment %}
+
+{% assign NbPages = 0 %}
+{% assign idStringArray = "" %}
+{% assign pageID = 0 %}
+
+{% for thispage in site.pages %}
+	{% if thispage.category %}
+		{% assign NbPages = NbPages | plus: 1 %}
+		{% assign idStringArray = idStringArray | append:pageID | append:"," %}
+	{% endif %}
+	{% assign pageID = pageID | plus: 1 %}
+{% endfor %}
+
+{% assign idArray = idStringArray | split:"," %}
+
+
+
+{% comment %}
+<!--
+Find the index of the current page in idArray.
+-->
+{% endcomment %}
+
+{% assign PageID = 0 %}
+{% assign idArrayCounter = 0 %}
+{% for thisID in idArray %}
+	{% assign PageID = thisID | plus: 0 %}
+	{% if site.pages[PageID].url == page.url %}
+		{% break %}
+	{% else %}
+		{% assign idArrayCounter = idArrayCounter | plus: 1 %}
+	{% endif %}
+{% endfor %}
+
+
+
+{% comment %}
+<!-- Get the previous and the next page. -->
+{% endcomment %}
+
+{% assign PrevPageID = idArrayCounter | plus: -1 | modulo: NbPages %}
+{% assign PrevPageID = idArray[PrevPageID] | plus: 0 %}
+
+{% assign NextPageID = idArrayCounter | plus:  1 | modulo: NbPages %}
+{% assign NextPageID = idArray[NextPageID] | plus: 0  %}
+
+{% assign PrevPage = site.pages[PrevPageID] %}
+{% assign ThisPage = site.pages[PageID] %}
+{% assign NextPage = site.pages[NextPageID] %}
+
+
+
+<div class="jumbotron">
+	<div class="container">
+	<a class="navbar-brand" href="{{ site.baseurl }}/">EFT–TBT</a></div>
+		<div class="btn-prev-next text-center" >
+			<a class="btn btn-primary" title="{{ PrevPage.title }}" href="{{ site.url }}{{ site.baseurl }}{{ PrevPage.url }}" role="button" accesskey="p"><i class="fa fa-chevron-left"></i></a>
+
+			<span>&nbsp;</span>
+
+			<a class="btn btn-primary" title="Retour à l’accueil" href="{{ site.baseurl }}/" role="button" accesskey="h"><i class="fa fa-bars"></i></a>
+
+			<span>&nbsp;</span>
+
+			<a class="btn btn-primary" title="{{ NextPage.title }}" href="{{ site.url }}{{ site.baseurl }}{{ NextPage.url }}" role="button" accesskey="n"><i class="fa fa-chevron-right"></i></a>
+		</div>
+	</div>
+</div>
