@@ -10,6 +10,9 @@ published: true
 
 Isabelle a conçu de A à Z différents ateliers, dont l’objectif principal est de bien comprendre et intégrer les différents processus cérébraux, physiologiques, émotionnels, comportementaux induits lors de situations de stress ressenti, et de s’en extraire rapidement et efficacement.
 
+{: .img-align-left }
+![](../images/isabelle-levrat-fb.jpg)
+
 En tant que réflexologue, diplômée de la Bayly’s School of London depuis 1992, elle s’est rendue compte de l’impact important du stress à tous les niveaux de l’Être.
 
 Formée à l’Intelligence Relationnelle, aux outils de la PNL (Programmation Neuro-Linguistique), à l’Hypnose Éricksonienne, certifiée Formatrice,  Praticienne EFT, TBT.
@@ -20,5 +23,5 @@ Tout au long de cette expérience de 24 ans dans la gestion du stress, Isabelle 
 
 Actuellement consultante,  elle travaille aussi bien pour les particuliers que pour le monde de l’entreprise.
 
-{: .align-center}
+{: .align-center }
 ❧
