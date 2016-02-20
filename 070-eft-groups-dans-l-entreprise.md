@@ -16,4 +16,5 @@ Page en cours de rénovation....
 
 ![](../images/renovation.jpg)
 
+{: .align-center }
 ❧

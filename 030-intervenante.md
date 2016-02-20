@@ -20,11 +20,5 @@ Tout au long de cette expérience de 24 ans dans la gestion du stress, Isabelle 
 
 Actuellement consultante,  elle travaille aussi bien pour les particuliers que pour le monde de l’entreprise.
 
-{: .left}
-❧
-
-{: .center}
-❧
-
-{: .right}
+{: .align-center}
 ❧

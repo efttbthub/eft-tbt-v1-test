@@ -20,4 +20,6 @@ Pour prendre contact avec moi, il suffit de m’envoyer un message à l’adress
 
 Je vous souhaite une agréable découverte de l’EFT–TBT sur mon site.
 
+{: .align-right .margin-right-70 }
 *Isabelle*
+
