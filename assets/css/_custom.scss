@@ -476,6 +476,7 @@ ul, ol{
 		background: #222222;
 		color: #ffffff;
 		padding: 20px 0 15px 0;
+		margin-bottom: 0;
 		.fnav {
 			vertical-align: middle;
 		}
@@ -521,18 +522,20 @@ ul, ol{
 			background-color: rgba( 255, 255, 255, 0.75 );
 			border-radius: 20px;
 			margin-bottom: 100px;
-			// min-height: 1000px;
 		}
 		.page-text {
 			padding: 100px 0;
 			p {
 				text-align: justify;
+				        hyphens: auto;
+				   -moz-hyphens: auto;
+				-webkit-hyphens: auto;
 			}
 			* {
 				margin: 0 0 20px;
 			}
 			h1 {
-				font-size: 40pt !important;
+				font-size: 40pt;
 				margin: 50px 0;
 			}
 			h2 {
@@ -542,8 +545,41 @@ ul, ol{
 			}
 		}
 	}
+	iframe {
+		max-width: 100%;
+	}
 }
 
+.max-width-427 {
+	display: none;
+}
+
+// Samsung Galaxy Pocket
+// @media( max-width: 320px )
+// @media( max-width: 427px )
+
+@media( max-width: 427px ) {
+	.max-width-427 {
+		display: block;
+	}
+	body.page {
+		$bkg-image: none;
+		section.section .container {
+			background-color: white;
+		}
+		.page-text {
+			h1 {
+				font-size: 25pt;
+				        hyphens: auto;
+				   -moz-hyphens: auto;
+				-webkit-hyphens: auto;
+			}
+			p {
+				text-align: left;
+			}
+		}
+	}
+}
 
 @media print {
 	div.header {
@@ -567,11 +603,15 @@ ul, ol{
 		iframe {
 			display: none;
 		}
+		p {
+			        hyphens: auto;
+			   -moz-hyphens: auto;
+			-webkit-hyphens: auto;
+		}
 	}
 	blockquote {
 		border: none;
 	}
-	.no-print { display: none; }
 	#tf-accueil {
 		div {
 			padding-top: 10px !important;
@@ -655,3 +695,17 @@ p {
 		}
 	}
 }
+
+
+// POUR DÉBUG
+// #tf-menu            { display: none; }
+// #tf-accueil         { display: none; }
+// #tf-presentation    { display: none; }
+// #tf-techniques      { display: none; }
+// #tf-applications    { display: none; }
+// #tf-ateliers        { display: none; }
+// #tf-contact         { display: none; }
+// #footer             { display: none; }
+
+
+
