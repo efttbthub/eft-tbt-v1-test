@@ -1,9 +1,9 @@
+@charset "utf-8";
 
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
 
 $contrast-color: hsl(201, 67%, 61%);
-
 
 body, html{
 	font-family: 'Lato', sans-serif;
@@ -14,7 +14,6 @@ body, html{
 }
 
 /* ———— */
-
 h1 {
 	text-transform: uppercase;
 }
@@ -27,8 +26,8 @@ h2 {
 	margin:  0;
 }
 h3 {
-font-size: 18px;
-font-weight: 900;
+	font-size: 18px;
+	font-weight: 900;
 }
 h4 {
 	text-transform: uppercase;
@@ -70,10 +69,16 @@ a:focus {
 	 clear: both;
 	 height: 0;
 	 }
-.clearfix { display: inline-block; }
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-ul, ol{
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+ul, ol {
 	padding: 0;
 	webkit-padding: 0;
 	moz-padding: 0;
@@ -134,8 +139,8 @@ p.vignette img {
 	#tf-accueil {
 		background-image: url( ../../images/fotolia_58908676.jpg );
 		background-size: cover;
-		background-position: bottom;
-		background-attachment: local;
+		background-position: center;
+		background-attachment: fixed;
 		background-repeat: no-repeat;
 		color: #e3e3e3;
 		font-size: 16pt;
@@ -222,7 +227,7 @@ p.vignette img {
 
 	/* ———— */
 	#tf-techniques {
-		background: url(../../images/04.jpg);
+		background-image: url(../../images/04.jpg);
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
@@ -304,7 +309,7 @@ p.vignette img {
 
 	/* ———— */
 	#tf-ateliers {
-		background: url(../../images/atelier-1920x1280.jpg);
+		background-image: url(../../images/atelier-1920x1280.jpg);
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
@@ -516,8 +521,6 @@ p.vignette img {
 		   -moz-background-size: cover;
 			 -o-background-size: cover;
 				background-size: cover;
-
-
 		.jumbotron {
 			background-color: transparent;
 		}
