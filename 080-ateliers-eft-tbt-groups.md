@@ -14,31 +14,24 @@ published: true
 
 # Comment se déroulent les ateliers de groupe ?
 
-### 9 h
+> « Sciez une planche avec un marteau et plantez un clou avec une scie »
 
-- Accueil des participants et distribution d’un *Mind Book* (petit livret personnel, destiné aux participants qui souhaitent prendre des notes, prises de consciences et évolution de leur travail).
-- Explication de la partie « technique » (très simple, aucun prérequis nécessaire !)
-- Début du travail de groupe, chacun sur soi.
+Cela vous paraît infaisable, voire absurde ? c’est pourtant ce que la plupart d’entre nous fait en matière de gestion du stress, des émotions dérangeantes, ou par rapport aux douleurs chroniques ou ponctuelles.
 
-⇒ Le travail de groupe : Je commence la séance en verbalisant différentes choses que les participants aimeraient travailler sur eux. Par exemple: mon dos me fait mal,... ça m’énerve de souffrir de la sorte,... je ne supporte plus rien quand j’ai mal comme ça,... je me sens bloqué-e,... que ce soit physique ou émotionnel !
+Et les choses ne font que se répéter quand il est question de concentration d’amélioration de performance, de démarrer un projet, ou ne serait-ce que de se tenir à une décision, un projet...
 
-Puis, en fonction de la réaction des participants, d’une généralisation, on va plus dans le détail des douleurs physiques / émotionnelles de la personne.
+> « La folie, c’est de faire toujours la même chose, et de s’attendre à un résultat différent ! » Albert Einstein.
 
-Au fur et à mesure de la séance, les différentes intensités de douleurs descendent, les participants se sentent de mieux en mieux. La technique employée est simple, facile d’accès  à tous, et l’effet de groupe est là pour rajouter en efficacité et rapidité.
 
-L’objectif de ces séances est que le(a) participant(e) ressorte de cette séance en se sentant apaisé(e) au niveau douleur physique, qu’il (elle) soit capable d’utiliser cette technique EFT seul(e) pour ce qui est d’intensité jusqu’à 6 environ. (Échelle d’intensité de 0 à 10, 10 étant du domaine de l’insupportable).
 
-Et surtout les prises de conscience liées au travail durant la séance, ce qui lui permettra d’avancer plus rapidement!
+## Que trouver dans ces ateliers [*EFT groups*](../la-puissance-du-groupe/) ?
 
-Le travail de groupe est très convivial, permet de se sentir à l’aise.
+Une méthode simple, efficace, qui vous permettra d’être plus autonome face aux tourments de la vie quotidienne.
 
-Les participants ne prennent « la parole » que s’ils le désirent, aucune obligation : le travail sur chacun se fera de la même façon !
+Cette technique de plus en plus utilisée à travers le monde entier : [*L’EFT*](../qu-est-ce-que-l-eft/) – Techniques de libération émotionnelle, soulage un grand nombre de symptômes physiques (douleurs chroniques ou ponctuelles), elle est aussi très efficace sur les traumas, peurs, anxiété, culpabilités, dépressions, toutes formes de stress.
 
-### 10 h 45
+Cette technique est surprenante lorsqu’elle est utilisée sur les enfants, ou par les enfants eux-mêmes !
 
-- Pause. Une seconde pause peut être envisagée, en fonction de la demande commune.
+[TBT](../qu-est-ce-que-la-tbt/) : *Trauma Buster Technique* — *technique de l’effondrement du trauma*, est une technique dérivée de *l’EFT*. La *TBT* va être utilisé plus spécifiquement sur des chocs, drames, traumas.
 
-### 13 h
-
-- Fin du travail de groupe
-
+[En lire plus](../mon-parcours/)

@@ -652,7 +652,7 @@ p.vignette img {
 	text-align: right !important;
 }
 @mixin margin-right( $margin-right ) {
-	margin-right: $margin-right;
+	margin-right: $margin-right !important;
 }
 .margin-right-10  { @include margin-right(  10px ); }
 .margin-right-20  { @include margin-right(  20px ); }
@@ -665,7 +665,7 @@ p.vignette img {
 .margin-right-90  { @include margin-right(  90px ); }
 .margin-right-100 { @include margin-right( 100px ); }
 @mixin margin-left( $margin-left ) {
-	margin-left: $margin-left;
+	margin-left: $margin-left !important;
 }
 .margin-left-10  { @include margin-left(  10px ); }
 .margin-left-20  { @include margin-left(  20px ); }
@@ -677,6 +677,19 @@ p.vignette img {
 .margin-left-80  { @include margin-left(  80px ); }
 .margin-left-90  { @include margin-left(  90px ); }
 .margin-left-100 { @include margin-left( 100px ); }
+@mixin margin-top( $margin-top ) {
+	margin-top: $margin-top !important;
+}
+.margin-top-10  { @include margin-top(  10px ); }
+.margin-top-20  { @include margin-top(  20px ); }
+.margin-top-30  { @include margin-top(  30px ); }
+.margin-top-40  { @include margin-top(  40px ); }
+.margin-top-50  { @include margin-top(  50px ); }
+.margin-top-60  { @include margin-top(  60px ); }
+.margin-top-70  { @include margin-top(  70px ); }
+.margin-top-80  { @include margin-top(  80px ); }
+.margin-top-90  { @include margin-top(  90px ); }
+.margin-top-100 { @include margin-top( 100px ); }
 
 
 p {
@@ -699,6 +712,9 @@ p {
 		img {
 			max-width: 100% !important;
 		}
+	}
+	&.small {
+		font-size: 80% !important;
 	}
 }
 
