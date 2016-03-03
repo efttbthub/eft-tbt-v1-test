@@ -19,14 +19,14 @@ permalink: credits/
 ## ADN
 
 {: .vignette }
-[![...](../images/fotolia_58908676.jpg)](https://fr.fotolia.com/id/58908676)
+[![...](../images/adn-fotolia_58908676.jpg)](https://fr.fotolia.com/id/58908676)
 
 
 
 ## Portrait Isabelle
 
 {: .vignette }
-[![...](../images/isabelle-levrat-fb.jpg)](../images/isabelle-levrat-fb.jpg)
+[![...](../images/isabelle-levrat-temp.jpg)](../images/isabelle-levrat-temp.jpg)
 Isabelle Levrat
 
 

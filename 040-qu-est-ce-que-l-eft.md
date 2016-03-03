@@ -15,7 +15,7 @@ published: true
 L’EFT, ou *Emotional Freedom Technique*, est une technique simple, facile d’accès, ne nécessitant qu’un prérequis, celui de vouloir se sentir mieux !
 
 {: .img-align-right }
-![](../images/fotolia_58908676.jpg)
+![](../images/adn-fotolia_58908676.jpg)
 
 La simplicité de cette méthode est remarquable, et peut être appliquée à n’importe quel âge, enfants en bas âge et ados compris, quelque soit la localisation de la douleur et son traitement médical éventuel. Il n’y a aucun effet secondaire avec l’EFT !
 

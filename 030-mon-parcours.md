@@ -11,7 +11,7 @@ published: true
 Passionnée depuis l’adolescence pour tout ce qui ne se voit pas, mais qui nous touche si profondément, *les Émotions*, j’ai choisi de m’investir professionnellement et de comprendre les différents processus cérébraux, physiologiques, émotionnels et comportementaux induits en situations de stress ressenti, et comment s’en extraire rapidement et efficacement.
 
 {: .img-align-left }
-![](../images/isabelle-levrat-fb.jpg)
+![](../images/isabelle-levrat-temp.jpg)
 
 C’est d’abord en tant que réflexologue diplômée de la *Bayly’s School of London* depuis 1992, puis en travaillant sur le système des méridiens d’acupression, que je me suis rendue compte de l’impact important du stress dans la relation corps-émotions.
 
@@ -25,7 +25,7 @@ Puis la *TBT* ou *Technique de l’effondrement du trauma* (2015 – *Rehana Web
 
 Cette technique fabuleuse de *l’EFT* n’est autre que le lien entre le corps et la conscience, l’accès direct aux croyances, l’appropriation de notre vie tant désirée !
 
-Je travaille actuellement aussi bien pour le monde de l’entreprise que pour les particuliers, ainsi que pour la thérapie de groupe.
+Je travaille actuellement pour le monde de l’entreprise et pour les particuliers que j’accompagne – individuellement ou en groupe – dans un processus basé sur la Confiance et le Respect, visant le Mieux-être, Autonomie, et Atteintes d’objectifs .
 
 {: .align-center }
 ❧
@@ -37,7 +37,7 @@ Je travaille actuellement aussi bien pour le monde de l’entreprise que pour le
 Isabelle a conçu de A à Z différents ateliers, dont l’objectif principal est de bien comprendre et intégrer les différents processus cérébraux, physiologiques, émotionnels, comportementaux induits lors de situations de stress ressenti, et de s’en extraire rapidement et efficacement.
 
 {: .img-align-left }
-![](../images/isabelle-levrat-fb.jpg)
+![](../images/isabelle-levrat-temp.jpg)
 
 En tant que réflexologue, diplômée de la Bayly’s School of London depuis 1992, elle s’est rendue compte de l’impact important du stress à tous les niveaux de l’Être.
 
