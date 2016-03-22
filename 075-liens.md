@@ -13,6 +13,10 @@ published: true
 
 # Liens
 
+**EFT—TBT GROUPS sur Facebook**
+
+<https://www.facebook.com/EFT-TBT-groups-1520668418256046/>
+
 **Réflexologie – Massages – Hypnose**
 
 *Catherine Jörg* : <http://catherinejorg.ch>
