@@ -91,27 +91,46 @@ Tarif : CHF 90.–
 
 # Inscriptions aux groupes
 
-Les arrhes de CHF 30.– doivent être acquitées pour que la réservation soit effective. Le solde sera versé à l’intervenante le jour de l’atelier.
+Un acompte de CHF 30.– doit être acquitté pour que la réservation soit effective. Le solde sera versé à l’intervenante le jour de l’atelier.
 
-Les arrhes ne sont pas remboursables. Si toute fois vous ne pouviez pas assister à l’atelier du jour J, vous pouvez vous inscrire à une autre séance, les arrhes déjà versées tenant lieu de confirmation d’inscription. Merci de le faire valoir par mail.
+L’acompte n’est pas remboursable. Si toutefois vous ne pouviez pas assister à l’atelier du jour J, vous pouvez vous inscrire à une autre séance, l’acompte déjà versé tenant lieu de confirmation d’inscription pour l’atelier de votre choix. Attention, les places sont limitées.
 
-Tout inscription sera effective après réception du versement des arrhes pour la réservation de votre place pour l’atelier de votre choix. Attention, les places sont limitées.
+Un e-mail de confirmation vous sera envoyé.
 
-Un email de confirmation vous sera envoyé.
+*L’EFT* et la *TBT* ne remplacent pas la consultation chez un professionnel de la santé.
 
-*L’EFT* et *la TBT* ne remplace pas la consultation chez un professionnel de la santé.
+Durant les ateliers, l’intervenante ne statuera en aucun cas sur vos différents traitements médicaux, seul votre professionnel de santé pourra en convenir.
 
-Durant les ateliers, l’intervenante ne statura en aucun cas sur vos différents traitements médicaux, seul votre professionnel de santé pourra en convenir.
 
 
 ## Payements
 
-Atelier de groupe
 
-prix : 200 CHF
+### Suisse — virement postal
+
+Levrat Isabelle
+
+Numéro de compte : 14-944584-1
+
+
+
+### Suisse — virement bancaire
+
+IBAN : CH74 0900 0000 1494 4584 1
+
+
+### Paypal
 
 {% include bouton-paypal-001.html %}
 
+
+### Contact
+
+<i class="fa fa-mobile"></i> Suisse : 078 628 37 82
+
+<i class="fa fa-mobile"></i> France : 06 72 22 09 12
+
+<eft.tbt@gmail.com>
 
 
 <!--

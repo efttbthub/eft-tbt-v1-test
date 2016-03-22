@@ -22,8 +22,6 @@ Nous ne pouvons pas changer une expérience vécue par le passé, mais nous pouv
 
 [Certification Isabelle Levrat, Geneva, Switzerland](http://traumabustertechnique.com/tbters/)
 
-Isabelle est la seule en France à être certifiée dans cette technique du *TBT* par Rihanna Webster, à ce jour.
-
 {: .img-align-center }
 ![](../images/rehana-webster-bandeau.jpg)
 
