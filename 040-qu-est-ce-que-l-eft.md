@@ -26,7 +26,7 @@ Techniquement, on pourrait la résumer en disant qu’elle consiste à tapoter d
 Cette technique prend ses racines dans la synergie des deux grands courants de travail en thérapie : d’un côté la psychologie moderne (PNL – Programmation neuro-linguistique et coaching de vie) et de l’autre la médecine chinoise avec les points d’acupuncture. Toutes ces thérapies font preuve d’excellence à elles seules. Associez-les conjointement, et cela devient très puissant !
 
 {: .img-align-center }
-![](../images/fotolia_69565673.jpg)
+![](../images/eft.jpg)
 
 C’est donc l’association de l’harmonisation énergétique et la connexion au problème qui constitue la base de l’EFT, le lien « corps-esprit », ainsi que son originalité quant à ses effets rapides et durables.
 
