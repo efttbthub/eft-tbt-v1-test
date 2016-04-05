@@ -19,7 +19,7 @@ Il m’est alors apparut indispensable de me former à *l’Intelligence relatio
 
 J’ai installé plusieurs *espaces de mieux-être* dans le cadre d’entreprises sensibles à la santé au travail de leurs collaborateurs, avec diverses techniques de relaxation, et notamment avec le *Amma Assis* ou *Massage assis* (2000 – *Touchline* – Neuchâtel, Suisse).
 
-Puis je me suis formée en *EFT* ou *Techniques de Libération Émotionnelle* (2014 – *AAMET* – Genève, Suisse).
+Puis je me suis formée en *EFT* ou *Techniques de Libération Émotionnelle* (2014 – Diane et Alain von der Weid – *AAMET* – Genève, Suisse).
 
 Puis la *TBT* ou *Technique de l’effondrement du trauma* (2015 – *Rehana Webster*, Genève, Suisse).
 

@@ -1,8 +1,10 @@
-<!DOCTYPE html>
+---
+layout: pretty-print-compress
+---
 <html lang="{{ site.locale }}">
-{% include head.html %}
+{% include head.liquid %}
 	<body id="home-page">
-{% include analyticstracking.html %}
+{% include facebook-sdk.liquid %}
 
 		<!--
 		==========================================-->
@@ -235,12 +237,14 @@
 	{% endif %}
 {% endfor %}
 
+{% include facebook-button-box_count.liquid %}
+
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-{% include footer.html %}
+{% include footer.liquid %}
 	</body>
 </html>

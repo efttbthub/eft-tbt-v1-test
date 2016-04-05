@@ -4,7 +4,7 @@ title: Qu’est-ce que l’EFT ?
 permalink: qu-est-ce-que-l-eft/
 category: techniques
 vignette:
-  image: images/fotolia_69565673.jpg
+  image: images/eft-300x300.jpg
   titre-1: EFT
   titre-2: Emotional<br/>Freedom<br/>Technique
 published: true
@@ -38,6 +38,37 @@ Et en même temps, on tapote des points précis sur le visage et clavicule. C’
 
 [Téléchargez les points (PDF)](../fichiers/points-eft.pdf)
 
+⇒ Consultation individuelle sur RDV uniquement.
+
+Malagnou 1208 Genève : CHF 160.- la séance de 1 h 30 / Possibilité de faire la séance à domicile : CHF 180.- la séance de 1 h 30.
+
+
+# Le champ d’application de L’EFT est très vaste :
+
+- Douleurs physiques, ponctuelles ou chroniques (ex : dos, nuque, arthrose, genoux, maux de ventre...)
+- Phobies
+- Peurs
+- Insomnies
+- Crises de panique
+- Dépendances (tabac, alcool, jeux, nourriture...)
+- Besoins irrépressibles
+- Chagrin
+- Stress
+- Anxiété
+- Deuil
+- Traumatismes et abus
+- Problèmes relationnels
+- Manque de motivation
+- Manque de confiance en soi
+- Rougissement
+- Effets secondaires de la chimiothérapie
+- Développement des performances physiques et psychologiques
+- Peur de parler en public
+- Timidité
+- Mauvaises habitudes (se ronger les ongles, s’arracher les cheveux...)
+- Angoisses
+- Colère
+
 
 
 ## Que pensent-ils de l’EFT?
@@ -59,3 +90,6 @@ Bruce Lipton, enseignant en biologie cellulaire à la faculté de médecine de l
 <p><iframe width="585" height="439" src="https://www.youtube.com/embed/eaWLQPvmnHw" frameborder="0" allowfullscreen></iframe></p>
 
 <p><iframe width="585" height="329" src="https://www.youtube.com/embed/LjKhwlq7n-U" frameborder="0" allowfullscreen></iframe></p>
+
+
+{% include facebook-button-box_count.liquid %}

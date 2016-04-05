@@ -4,7 +4,7 @@ title: Qu’est-ce que la TBT ?
 permalink: qu-est-ce-que-la-tbt/
 category: techniques
 vignette:
-  image: images/feu-300x300.jpg
+  image: images/tbt-300x300.jpg
   titre-1: TBT
   titre-2: Trauma<br/>Buster<br/>Technique
 published: true
@@ -39,3 +39,5 @@ Une question que posent les chercheurs à propos de *l’EFT* ou tout autre trai
 
 [En savoir plus sur *la TBT* sur le site de Rehana Webster](http://traumabustertechnique.com/tag/rehana-webster/)
 
+
+{% include facebook-button-box_count.liquid %}

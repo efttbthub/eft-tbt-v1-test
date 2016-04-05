@@ -1,12 +1,11 @@
 ---
-layout: compress
+layout: pretty-print-compress
 ---
-<!DOCTYPE html>
 <html lang="{{ site.locale }}">
-{% include head.html %}
+{% include head.liquid %}
 	<body class="page animated fadeIn">
-{% include analyticstracking.html %}
-{% include prev-next-buttons.html %}
+{% include facebook-sdk.liquid %}
+{% include prev-next-buttons.liquid %}
 <section class="section" id="id-{{ page.title | slugify }}">
 	<div class="container">
 		<div class="row">
@@ -17,10 +16,8 @@ layout: compress
 	</div>
 </section>
 <div class="max-width-427">
-{% include prev-next-buttons.html %}
+{% include prev-next-buttons.liquid %}
 </div>
-{% include footer.html %}
+{% include footer.liquid %}
 	</body>
 </html>
-
-

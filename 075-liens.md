@@ -32,3 +32,8 @@ published: true
 **Développement personnel avec le cheval**
 
 *Alicia Manzoni : Equi-liberta* : <http://www.equi-liberta.ch>
+
+**Communauté Numhira sur Facebook**
+
+<https://www.facebook.com/Numhira/>
+

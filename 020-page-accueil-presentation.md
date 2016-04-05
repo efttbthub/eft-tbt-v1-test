@@ -16,7 +16,7 @@ Je m’appelle Isabelle Levrat, et je suis formée à différentes techniques ap
 
 Vous pouvez découvrir mon parcours plus en détail sur [ma page de présentation](mon-parcours/).
 
-Pour une consultation individuelle, pour créer un groupe en EFT-TBT sur un thème précis, ou pour tout renseignement, il vous suffit de m’envoyer un message à l’adresse suivante : [eft.tbt@gmail.com](mailto:eft.tbt@gmail.com).
+Pour [une consultation individuelle](qu-est-ce-que-l-eft/), pour créer un groupe en EFT-TBT sur un thème précis, ou pour tout renseignement, il vous suffit de m’envoyer un message à l’adresse suivante : [eft.tbt@gmail.com](mailto:eft.tbt@gmail.com).
 
 {: .align-right .margin-right-70 }
 *Isabelle*
