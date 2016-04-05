@@ -33,12 +33,12 @@ gems:
 
 
 compress_html:
-  clippings: []
-  comments: []
+  clippings: all
+  comments: ["<!-- ", " -->"]
   endings: []
   ignore:
     envs: []
-  blanklines: false
+  blanklines: true
   profile: false
   startings: []
 
